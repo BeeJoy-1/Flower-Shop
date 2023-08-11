@@ -129,6 +129,8 @@ body{
     text-align: center;
     margin-top: 100px;
     flex-shrink: 0;
+    margin-left: 345px;
+    margin-right: 345px;
 }
 .mid{
     padding: 50px; 
@@ -189,4 +191,108 @@ body{
     align-items: center;
     margin-top: -80px;
     margin-right: 200px;
+}
+.insta{
+    align-items: center;
+}
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: -30px;
+    padding: 0px 600px;
+}
+.collection{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.subscribe{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    height: 300px;
+    padding: 100px 100px 80px 100px;
+    border-radius: 8px;
+    background: url("Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.subscribe-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.subcribe-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+#email{
+    border: none;
+    width: 700px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+.footer{
+    background: #111010;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    padding: 100px 100px 80px 100px;
+}
+.footer-title{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: -30px 600px 0px 600px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
