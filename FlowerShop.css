@@ -43,6 +43,13 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+}
+button:hover{
+    background-color: #dd4c6c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
 }
 .flower{
     width: 535px;
@@ -281,7 +288,7 @@ body{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
